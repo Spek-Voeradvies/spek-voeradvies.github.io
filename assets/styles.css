@@ -15,6 +15,13 @@ button{font:inherit}
 .brand-mark{display:grid;place-items:center;width:39px;height:39px;border-radius:11px;background:var(--green);color:var(--lime);font-family:Manrope,sans-serif;font-size:14px;font-weight:800;letter-spacing:-1px}
 .brand-name{font-family:Manrope,sans-serif;font-size:14px;font-weight:800;letter-spacing:1.8px;line-height:1.2}
 .brand-name span{display:block;font-size:9px;letter-spacing:2.5px;font-weight:700;margin-top:4px;color:#64766b}
+.brand-logo {
+    display: block;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
 .main-nav{display:flex;align-items:center;gap:31px;font-size:13px;font-weight:600;color:#34473d}
 .main-nav>a:not(.nav-cta):hover{color:#63802c}
 .nav-cta{padding:11px 19px;background:var(--green);border-radius:6px;color:#fff}
