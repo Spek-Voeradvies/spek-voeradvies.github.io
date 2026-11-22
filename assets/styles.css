@@ -49,15 +49,17 @@ h1 span,h2 span{color:var(--lime)}
 }
 
 .download-group {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 7px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .download-info {
-    font-size: 12px;
+    font-size: 10px;
     color: #64746b;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 .button-download {
